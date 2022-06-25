@@ -1,4 +1,13 @@
 <?php
+echo"<style>";
+echo"p {";
+  echo"margin: 30px;";
+  echo"font-size:132%";
+echo"}";
+echo"</style>";
+
+echo"<p><h1 style=\"text-align:center;\">FPB</h1></p>";
+
 $bil1 = $_POST["Bil1"];
 $bil2 = $_POST["Bil2"];
 
@@ -40,5 +49,5 @@ for ($a = 1; $a <= $bil2; $a++){
 echo"<p>Langkah ketiga: pilih faktor yang sama dan terbesar dari ",$bil1, " dan ",$bil2,"<br>";
 echo"Faktor yang sama dan terbesar adalah ",FPB($bil1, $bil2),"</p>";
 
-echo"<a href=FPB.php>Kembali ke halaman FPB</a>";
+echo"<p><a href=FPB.php>Kembali ke halaman FPB</a></p>";
 ?>

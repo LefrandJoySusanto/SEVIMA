@@ -2,8 +2,14 @@
 echo"<!DOCTYPE html>";
 echo"<html>";
 echo"<body>";
+echo"<style>";
+echo"p {";
+  echo"margin: 30px;";
+  echo"font-size:132%";
+echo"}";
+echo"</style>";
 
-echo"<p><h1>FPB</h1></p>";
+echo"<p><h1 style=\"text-align:center;\">FPB</h1></p>";
 echo"<p>FPB atau faktor persekutuan terbesar adalah faktor terbesar dari dua atau lebih bilangan bulat yang membagi bilangan bulat tersebut.<br>
 Untuk mencari FPB pertama kita harus mengetahui faktor dari bilangan-bilangan yang dicari FPBnya.<br></p>";
 echo"<p>Sebagai contoh mari kita cari FBP dari bilangan 42 dan 18.</p>";
@@ -20,7 +26,7 @@ echo"<p>Silahkan coba dengan angka anda sendiri</p>";
 echo"<form action=\"Action FPB.php\" method=\"post\">";
 echo"<p>Bilangan 1: <input type=\"text\" name=\"Bil1\"></p>";
 echo"<p>Bilangan 2: <input type=\"text\" name=\"Bil2\"></p>";
-echo"<input type=\"submit\">";
+echo"<p><input type=\"submit\"></p>";
 echo"</form>";
 
 echo"<p><a href=Home.php>Kembali ke Home</a></p>";

@@ -1,4 +1,13 @@
 <?php
+echo"<style>";
+echo"p {";
+  echo"margin: 30px;";
+  echo"font-size:132%";
+echo"}";
+echo"</style>";
+
+echo"<p><h1 style=\"text-align:center;\">KPK</h1></p>";
+
 $bil1 = $_POST["Bil1"];
 $bil2 = $_POST["Bil2"];
 
@@ -40,5 +49,5 @@ for ($a = 1; $a <= $bil1; $a++){
 echo"<p>Langkah ketiga: pilih kelipatan yang sama dan terkecil dari ", $bil1, " dan ", $bil2,"<br>
 Kelipatan yang sama dan terkecil adalah ", KPK($bil1, $bil2),"</p>";
 
-echo"<a href=KPK.php>Kembali ke halaman KPK</a>";
+echo"<p><a href=KPK.php>Kembali ke halaman KPK</a><p>";
 ?>

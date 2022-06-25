@@ -2,8 +2,14 @@
 echo"<!DOCTYPE html>";
 echo"<html>";
 echo"<body>";
+echo"<style>";
+echo"p {";
+  echo"margin: 30px;";
+  echo"font-size:132%";
+echo"}";
+echo"</style>";
 
-echo"<p><h1>KPK</h1></p>";
+echo"<p><h1 style=\"text-align:center;\">KPK</h1></p>";
 echo"<p>KPK atau kelipatan persekutuan terkecil adalah kelipatan terkecil dari dua atau lebih bilangan bulat.<br>
 Untuk mencari KPK pertama kita harus mengetahui kelipatan dari bilangan-bilangan yang dicari KPKnya.<br></p>";
 echo"<p>Sebagai contoh mari kita cari KPK dari bilangan 12 dan 10.</p>";
@@ -20,7 +26,7 @@ echo"<p>Silahkan coba dengan angka anda sendiri</p>";
 echo"<form action=\"Action KPK.php\" method=\"post\">";
 echo"<p>Bilangan 1: <input type=\"text\" name=\"Bil1\"></p>";
 echo"<p>Bilangan 2: <input type=\"text\" name=\"Bil2\"></p>";
-echo"<input type=\"submit\">";
+echo"<p><input type=\"submit\"></p>";
 echo"</form>";
 
 echo"<p><a href=Home.php>Kembali ke Home</a></p>";
