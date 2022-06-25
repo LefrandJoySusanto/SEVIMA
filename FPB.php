@@ -23,6 +23,8 @@ echo"<p>Bilangan 2: <input type=\"text\" name=\"Bil2\"></p>";
 echo"<input type=\"submit\">";
 echo"</form>";
 
+echo"<p><a href=Home.php>Kembali ke Home</a></p>";
+
 echo"</body>";
 echo"</html>";
 ?>
