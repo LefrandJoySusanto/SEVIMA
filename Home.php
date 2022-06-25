@@ -18,5 +18,6 @@ Topik tersebut adalah FPB (Faktor Persekutuan Terbesar) dan KPK (Kelipatan Perse
 	&nbsp;&nbsp;&nbsp;&nbsp;
 	<a href=KPK.php>KPK (Kelipatan Persekutuan Kerkecil)</a>
 </h3>
+
 </body>
 </html>

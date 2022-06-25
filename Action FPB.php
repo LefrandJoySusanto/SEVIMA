@@ -50,4 +50,5 @@ echo"<p>Langkah ketiga: pilih faktor yang sama dan terbesar dari ",$bil1, " dan 
 echo"Faktor yang sama dan terbesar adalah ",FPB($bil1, $bil2),"</p>";
 
 echo"<p><a href=FPB.php>Kembali ke halaman FPB</a></p>";
+
 ?>

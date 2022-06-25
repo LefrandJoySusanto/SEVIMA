@@ -50,4 +50,5 @@ echo"<p>Langkah ketiga: pilih kelipatan yang sama dan terkecil dari ", $bil1, " 
 Kelipatan yang sama dan terkecil adalah ", KPK($bil1, $bil2),"</p>";
 
 echo"<p><a href=KPK.php>Kembali ke halaman KPK</a><p>";
+
 ?>
